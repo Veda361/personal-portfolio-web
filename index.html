@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>Dev - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(0, 0, 62);
+      }
+      .left {
+        color: white;
+        font-size: 1.5rem;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+        cursor: pointer;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(173, 173, 194);
+        font-size: 0.97rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 3rem;
+      }
+      .leftSection .buttons {
+        padding: 50px 0;
+      }
+      .leftSection .btn{
+        padding: 12px;
+        background-color: #1e2167;
+        color: white;
+        border-radius: 2px solid gray;
+        font-family: 'sans-serif', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,  ;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      .rightSection img {
+        width: 80%;
+      }
+      .purple {
+        color: rgb(170, 107, 228);
+      }
+      #element {
+        color: rgb(170, 107, 228);
+      }
+
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      main hr {
+        width: 90vw;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        border: 0.4px solid rgb(170, 107, 228);
+      }
+      .secondsection h1 {
+        font-size: 1.9rem;
+      }
+      .text-gray {
+        color: gray;
+      }
+      .secondSection .box {
+        background: white;
+        width: 77vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 125px;
+      }
+      .image-top {
+        width: 32px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 14px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer {
+        
+        background-color: #0e0e1a;
+        
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footer ul{
+        list-style: none;
+      }
+
+      .footer > div{
+        width:232px;
+      }
+      footer .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Dev's Portofolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Dev</span>
+          <div>and I am a Passionate</div>
+
+          <span id="element"></span>
+          <div class="buttons">
+            <Button class="btn">Download Resume</Button>
+            <Button class="btn">Visit GitHub</Button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="developer.jpg" alt="developer" />
+        </div>
+      </section>
+      <hr />
+      <div class="secondSection">
+        <span class="text-gray">What I have done so far </span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="image1.jpg" alt="image1" />
+            <div class="vertical-title">HTML Developer(2021-2022)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              dolorum voluptatem magni quas ipsum porro illum at, commodi
+              perspiciatis cum eaque debitis quibusdam repellendus adipisci
+              nobis! Placeat rem temporibus consequuntur!
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="image2.jpg" alt="image1" />
+            <div class="vertical-title">Content Creator(2022-2023)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              dolorum voluptatem magni quas ipsum porro illum at, commodi
+              perspiciatis cum eaque debitis quibusdam repellendus adipisci
+              nobis! Placeat rem temporibus consequuntur!
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="image3.jpg" alt="image1" />
+            <div class="vertical-title">JavaScript(2023-2024)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              dolorum voluptatem magni quas ipsum porro illum at, commodi
+              perspiciatis cum eaque debitis quibusdam repellendus adipisci
+              nobis! Placeat rem temporibus consequuntur!
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="image4.jpg" alt="image1" />
+            <div class="vertical-title">Technical Writer(2024-2025)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              dolorum voluptatem magni quas ipsum porro illum at, commodi
+              perspiciatis cum eaque debitis quibusdam repellendus adipisci
+              nobis! Placeat rem temporibus consequuntur!
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Dev's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Conatct</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Conatct</li>
+                <li>Services</li>
+              </ul>
+        </div>
+        <div class="footer-fourth">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Conatct</li>
+                <li>Services</li>
+              </ul>
+        </div>
+      </div>
+      <div class=" footer-rights">
+       Copyright &#169; www.devsportfolio.com | All Rights Reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Content Creator",
+          "Freelancer",
+          "Technical Writer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
